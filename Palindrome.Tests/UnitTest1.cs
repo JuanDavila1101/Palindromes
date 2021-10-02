@@ -16,7 +16,7 @@ namespace Palindrome.Tests
     {
       var palindromeFinder = new PalindromeFinder();
       var isStringPalindrome = palindromeFinder.IsStringAPalindrome(palindromeString);
-      Assert.Equal(isStringPalindrome, expectedPalindromeResult);
+      Assert.Equal(expectedPalindromeResult, isStringPalindrome);
     }
   }
 }
